@@ -12,13 +12,13 @@ public class Exercicio10Lista08 {
         int[] comuns = new int[5];
         boolean contem = true, ordenado = false;
 
-        System.out.print("Digite 5 números diferentes de 0:\n");
+        System.out.print("Digite 5 números:\n");
         for(int i=0;i<5;i++){
             System.out.printf("%dº número: ", i+1);
             vetor1[i] = sc.nextInt();
         }
 
-        System.out.print("\nDigite mais 5 números diferentes de 0:\n");
+        System.out.print("\nDigite mais 5 números:\n");
         for(int i=0;i<5;i++){
             System.out.printf("%dº número: ", i+1);
             vetor2[i] = sc.nextInt();
