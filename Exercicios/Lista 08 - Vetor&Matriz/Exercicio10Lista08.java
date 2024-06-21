@@ -9,7 +9,7 @@ public class Exercicio10Lista08 {
         int x = 0, cont0 = 0;
         int[] vetor1 = new int[5];
         int[] vetor2 = new int[5];
-        int[] comuns = new int[10];
+        int[] comuns = new int[5];
         boolean contem = true, ordenado = false;
 
         System.out.print("Digite 5 números diferentes de 0:\n");
@@ -58,6 +58,7 @@ public class Exercicio10Lista08 {
         }
         else{
             System.out.print("\nOs números em comum aos dois conjuntos digitados são:");
+            System.out.print(" " + comuns[0]);
             for(int i=0;i<comuns.length-1;i++){
                 if(comuns[i]!=comuns[i+1]){
                     System.out.print(" " + comuns[i+1]);
